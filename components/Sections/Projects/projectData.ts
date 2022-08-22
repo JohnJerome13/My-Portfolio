@@ -24,8 +24,8 @@ const projectData: project[] = [
 		title: 'My Portfolio',
 		description:
 			'My personal website I created to showcase my skills, experiences and the projects I built in one place.',
-		githubLink: '',
-		projectLink: 'Quizzical',
+		githubLink: 'https://github.com/jerome813/My-Portfolio',
+		projectLink: 'https://jerome-portfolio.vercel.app/',
 		imageUrl: '/project-images/my-portfolio.png',
 		isLeftImage: false,
 	},
