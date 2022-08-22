@@ -1,28 +1,39 @@
 import * as React from 'react';
-import { Stack, Heading, Text, useBreakpointValue } from '@chakra-ui/react';
+import { Stack, Heading, Text, useColorModeValue } from '@chakra-ui/react';
 
 const Introduction = () => {
-	const isDesktop = useBreakpointValue({ base: false, lg: true });
 	return (
 		<>
-			<Stack spacing={{ base: '4', md: '2' }}>
-				<Heading as='h3' size='xl'>
+			<Stack spacing={{ base: '1', md: '2' }}>
+				<Heading
+					as='h3'
+					fontSize={['2xl', '3xl']}
+					position={'relative'}
+					color={useColorModeValue('brand.600', 'brand.300')}
+				>
 					I&apos;m a
 				</Heading>
+
 				<Heading as='h1' size='3xl'>
-					Frontend / JavaScript Developer
+					Front-End / Java
+					<span style={{ color: useColorModeValue('#A27B5C', '#b4957c') }}>
+						Script
+					</span>
+					<br />
+					Developer
 				</Heading>
 			</Stack>
 			<Text fontSize='md'>
-				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-				efficitur dapibus odio, a pulvinar orci sodales eu. In elit velit,
-				iaculis non aliquet sed, ultrices eget orci. Nulla arcu nisl, vulputate
-				sed nulla ut, aliquam egestas eros. Sed nisi sem, ultricies ut venenatis
-				a, lacinia in ligula. Curabitur nec libero felis.
+				I am passionately dedicated to building user-friendly web-based products
+				with great quality.
 			</Text>
 			<Text fontSize='md'>
-				Here are my skills and the technologies that I use and constantly
-				learning.
+				My main focus is to expand my expertise on front-end development and
+				technologies. I am always looking for opportunities to learn more and do
+				interesting things that matter.
+			</Text>
+			<Text fontSize='md'>
+				Here are the technologies that I use and constantly learning.
 			</Text>
 		</>
 	);

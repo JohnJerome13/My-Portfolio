@@ -1,8 +1,15 @@
-import { chakra, HTMLChakraProps, Image } from '@chakra-ui/react';
+import { HTMLChakraProps, Image, useColorModeValue } from '@chakra-ui/react';
 import * as React from 'react';
 
 const Logo = (props: HTMLChakraProps<'img'>) => (
-	<Image src='../../logoipsum-logo-8.svg' alt='logo' />
+	<Image
+		boxSize='100px'
+		src={useColorModeValue(
+			'../logo/jjp-logo-dark.png',
+			'../logo/jjp-logo-light.png'
+		)}
+		alt='jjp-logo'
+	/>
 );
 
 export default Logo;
