@@ -14,7 +14,7 @@ const projectData: project[] = [
 		title: 'WeConnect',
 		description:
 			'A simple social media application with functionalities of users, posts, likes, comments, private messages and friends - developed using React, Express, Node and MongoDB.',
-		githubLink: 'https://github.com/jerome813/WeConnect-Social-Media-App',
+		githubLink: 'https://github.com/JohnJerome13/WeConnect-Social-Media-App',
 		projectLink: 'https://we-connect-social-media.herokuapp.com/',
 		imageUrl: '/project-images/we-connect-sign-in-page.png',
 		isLeftImage: true,
@@ -24,7 +24,7 @@ const projectData: project[] = [
 		title: 'My Portfolio',
 		description:
 			'My personal website I created to showcase my skills, experiences and the projects I built in one place.',
-		githubLink: 'https://github.com/jerome813/My-Portfolio',
+		githubLink: 'https://github.com/JohnJerome13/My-Portfolio',
 		projectLink: 'https://jerome-portfolio.vercel.app/',
 		imageUrl: '/project-images/my-portfolio.png',
 		isLeftImage: false,
@@ -34,8 +34,8 @@ const projectData: project[] = [
 		title: 'Quizzical',
 		description:
 			'A trivia app that I built with API I used from Open Trivia Database. This app generates questions based on selected category and difficulty.',
-		githubLink: 'https://github.com/jerome813/quizzical',
-		projectLink: 'https://jerome813.github.io/quizzical/',
+		githubLink: 'https://github.com/JohnJerome13/quizzical',
+		projectLink: 'https://johnjerome13.github.io/quizzical/',
 		imageUrl: '/project-images/quizzical.png',
 		isLeftImage: true,
 	},
