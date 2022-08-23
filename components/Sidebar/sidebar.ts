@@ -30,16 +30,6 @@ export const SocialMedias: SocialMedia[] = [
 		icon: FaGithub,
 	},
 	{
-		label: 'Instagram',
-		href: 'https://www.instagram.com/jerome__po/',
-		icon: FaInstagram,
-	},
-	{
-		label: 'Facebook',
-		href: 'https://www.facebook.com/jerome81352/',
-		icon: FaFacebook,
-	},
-	{
 		label: 'Email',
 		href: 'mailto:johnjeromeperez@gmail.com',
 		icon: FiMail,
