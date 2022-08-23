@@ -25,7 +25,7 @@ const projectData: project[] = [
 		description:
 			'My personal website I created to showcase my skills, experiences and the projects I built in one place.',
 		githubLink: 'https://github.com/JohnJerome13/My-Portfolio',
-		projectLink: 'https://jerome-portfolio.vercel.app/',
+		projectLink: 'https://jjperez.vercel.app/',
 		imageUrl: '/project-images/my-portfolio.png',
 		isLeftImage: false,
 	},

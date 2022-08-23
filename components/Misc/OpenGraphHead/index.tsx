@@ -9,7 +9,7 @@ const OpenGraphHead = () => (
 			content='John Jerome Perez | Front-End Developer'
 		/>
 		<meta property='og:site_name' content='John Jerome Perez' />
-		<meta property='og:url' content='https://jerome-portfolio.vercel.app/' />
+		<meta property='og:url' content='https://jjperez.vercel.app/' />
 		<meta
 			property='og:description'
 			content='Hey there, my name is John Jerome Perez . . . I am a Front-End Developer'
