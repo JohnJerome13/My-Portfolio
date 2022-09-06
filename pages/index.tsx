@@ -17,7 +17,8 @@ import Projects from '../components/Sections/Projects';
 import Sidebar from '../components/Sidebar';
 import Contact from '../components/Sections/Contact';
 import { fadeInUp, fadeInRight, fadeInRightSlow } from '../config/animations';
-
+import ReactGA from 'react-ga';
+ReactGA.initialize('G-YZZW882NFK');
 const MotionSection = dynamic(
 	() => import('../components/Misc/MotionContainer'),
 	{
