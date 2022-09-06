@@ -35,6 +35,10 @@ const Section = (props: ContainerProps) => (
 const Home: NextPage = () => {
 	const isDesktop = useBreakpointValue({ base: false, lg: true });
 
+	React.useEffect(() => {
+		ReactGA.pageview(window.location.pathname);
+	}, []);
+
 	return (
 		<>
 			<OpenGraphHead />
