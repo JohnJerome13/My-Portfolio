@@ -19,11 +19,11 @@ export type SocialMedia = {
 };
 
 export const SocialMedias: SocialMedia[] = [
-	{
-		label: 'LinkedIn',
-		href: 'https://www.linkedin.com/in/john-jerome-perez/',
-		icon: FaLinkedin,
-	},
+// 	{
+// 		label: 'LinkedIn',
+// 		href: 'https://www.linkedin.com/in/john-jerome-perez/',
+// 		icon: FaLinkedin,
+// 	},
 	{
 		label: 'Github',
 		href: 'https://github.com/JohnJerome13',
